@@ -1,0 +1,17 @@
+{
+  "name": "qa-automation",
+  "type": "module",
+  "devDependencies": {
+    "@wdio/cucumber-framework": "^8.0.0",
+    "@wdio/json-reporter": "^9.0.8",
+    "@wdio/local-runner": "^9.0.9",
+    "@wdio/spec-reporter": "^9.0.8",
+    "wdio-cucumberjs-json-reporter": "^5.2.1"
+  },
+  "scripts": {
+    "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "qa-automation": "file:"
+  }
+}
